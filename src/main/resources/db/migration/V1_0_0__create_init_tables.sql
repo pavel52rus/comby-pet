@@ -10,5 +10,5 @@ CREATE TABLE books (
 
 CREATE TABLE authors (
     id bigserial primary key,
-    name varchar(256) NOT NULL
+    full_name varchar(256) NOT NULL
 )
